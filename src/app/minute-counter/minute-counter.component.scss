@@ -1,0 +1,14 @@
+.minute-counter {
+  display: flex;
+
+  &__days,
+  &__hours,
+  &__minutes {
+    width: 100%;
+  }
+
+  &--disabled {
+    opacity: 0.3;
+    cursor: default;
+  }
+}
